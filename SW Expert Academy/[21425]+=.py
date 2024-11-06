@@ -22,62 +22,27 @@ print(f)                                문자열 1개 출력하는 예제
 '''
 
 
-def fibonacci_sum(fa, fb):
-    fc = fa + fb
-    return fb, fc
 
-def fibonacci_division(list):
-    sumA, sumB = [], []
-    result = []
-    
-    while list:
-       sumA.append(list.pop())
-       result.append('A')
-       
-       if list:
-          sumB.append(list.pop())
-          result.append('B')
 
-       if list:
-          sumB.append(list.pop())
-          result.append('B')
-
-     
-    if sum(sumA) == sum(sumB):
-        return result
-    else:
-        result = ["impossible"]
-        return result
-    
+'''
+아래의 구문은 input.txt 를 read only 형식으로 연 후,
+앞으로 표준 입력(키보드) 대신 input.txt 파일로부터 읽어오겠다는 의미의 코드입니다.
+여러분이 작성한 코드를 테스트 할 때, 편의를 위해서 input.txt에 입력을 저장한 후,
+아래 구문을 이용하면 이후 입력을 수행할 때 표준 입력 대신 파일로부터 입력을 받아올 수 있습니다.
+따라서 테스트를 수행할 때에는 아래 주석을 지우고 이 구문을 사용하셔도 좋습니다.
+아래 구문을 사용하기 위해서는 import sys가 필요합니다.
+단, 채점을 위해 코드를 제출하실 때에는 반드시 아래 구문을 지우거나 주석 처리 하셔야 합니다.
+'''
+#import sys
+#sys.stdin = open("input.txt", "r")
 
 T = int(input())
 # 여러개의 테스트 케이스가 주어지므로, 각각을 처리합니다.
 for test_case in range(1, T + 1):
-    N = int(input())
-    
-    if N <= 1:
-      print("impossible")
-      continue
+    # ///////////////////////////////////////////////////////////////////////////////////
+    '''
 
-    # 피보나치 수열 구하기
-    fa, fb = 1, 1
-    fibonacci_list = [1, 1]
-    i=2
-    while True:
-       if i == N:
-          break
-       i += 1
+        이 부분에 여러분의 알고리즘 구현이 들어갑니다.
 
-       fa, fb = fibonacci_sum(fa, fb)
-       fibonacci_list.append(fb)
-
-    # 피보나치 수열 분배
-    result = fibonacci_division(fibonacci_list)
-    result.reverse()
-    
-    result_str = ""
-    for str in result:
-       result_str += str
-
-    print(result_str)
-      
+    '''
+    # ///////////////////////////////////////////////////////////////////////////////////
