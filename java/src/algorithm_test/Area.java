@@ -4,7 +4,7 @@ import java.util.List;
 
 import static java.util.Collections.sort;
 
-class Solution {
+class Area {
     public static void main(String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int N = Integer.parseInt(br.readLine());
@@ -118,13 +118,3 @@ class Solution {
         return areaList;
     }
 }
-
-
-
-
-
-
-
-
-
-
