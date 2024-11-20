@@ -36,10 +36,13 @@ class Solution_20955_XY문자열1 {
             }
             E = sb.toString();
 
+            // 계속 안되길래 진짜 이래저래 많이 수정했는데,,,
+            // Yes를 YES로 출력해서 안되는 거 였음..
+            // 출력 요구 사항을 잘 보자...
             if (S.equals(E)) {
-                System.out.println(String.format("#%d YES", test_case));
+                System.out.println(String.format("#%d Yes", test_case));
             } else {
-                System.out.println(String.format("#%d NO", test_case));
+                System.out.println(String.format("#%d No", test_case));
             }
         }
     }
