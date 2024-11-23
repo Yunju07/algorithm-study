@@ -1,6 +1,7 @@
 // 자바 자주 사용하는 코딩 테스트 문법
 
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.List;
 
 public class Main {
@@ -118,5 +119,19 @@ public class Main {
         // 리스트에 다른 리스트 요소 전부 포함 여부 체크
         list.containsAll(list2);    // list에 list2의 모든 값이 포함되어 있으면 true
 
+        /** Array <-> List **/
+        // Stirng 타입
+        String[] stringArray = {"apple", "banana", "lemon"};
+        List<String> toStringList = new ArrayList<>(Arrays.asList(stringArray));
+
+        List<String> stringList = new ArrayList<>();
+        String[] toStringArray = stringList.toArray(new String[stringList.size()]);
+
+        // Integer 타입
+        Integer[] integerArray = {1, 2, 3, 4};
+        List<Integer> toIntegerList = new ArrayList<>(Arrays.asList(integerArray));
+
+        List<Integer> integerList = new ArrayList<>();
+        int[] toIntegerArray = integerList.stream().mapToInt(x -> x).toArray();
     }
 }
