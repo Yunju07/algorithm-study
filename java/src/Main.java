@@ -2,6 +2,7 @@
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 
 public class Main {
@@ -133,5 +134,30 @@ public class Main {
 
         List<Integer> integerList = new ArrayList<>();
         int[] toIntegerArray = integerList.stream().mapToInt(x -> x).toArray();
+    }
+
+    public static void CollectionsMethod() {
+        Integer[] temp = {1, 2, 3, 4, 5};
+        List<Integer> list = new ArrayList<>(Arrays.asList(temp));
+
+        // 최대 최소
+        Collections.max(list);
+        Collections.min(list);
+
+        // List 정렬
+        Collections.sort(list);                                 // 오름차순
+        Collections.sort(list, Collections.reverseOrder());     // 내림차순
+
+        // List 뒤집기
+        Collections.reverse(list);
+
+        // List 내 원소의 갯수 반환
+        Collections.frequency(list, 3);     // 1
+
+        // List 내 원소 이진탐색
+        // 이진 탐색으로, 값이 정렬되어 있지 않으면 사용할 수 없음
+        // 오름차순 정렬 후, 사용하기
+        Collections.binarySearch(list, 3);  // 2 - index 반환 / 없으면 -1 반환
+
     }
 }
