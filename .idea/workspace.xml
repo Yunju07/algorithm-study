@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="64e5c1a3-ca09-42ae-b078-993601f80ced" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/java/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/.idea/gradle.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/.idea/jarRepositories.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/.idea/precourse.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/java-algorithm.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/java/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/java/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/java/.idea/discord.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/java/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/java/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/java/java-algorithm.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/java/src/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/java/src/Solution.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/java/src/algorithm_test/Area.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 1
+}]]></component>
+  <component name="ProjectId" id="2p3VLvxYIo3pGhYuRUhms82IktR" />
+  <component name="ProjectViewState">
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "last_opened_file_path": "E:/교육/algorithm-study",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="64e5c1a3-ca09-42ae-b078-993601f80ced" name="Changes" comment="" />
+      <created>1731994693696</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1731994693696</updated>
+      <workItem from="1731994694749" duration="293000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
