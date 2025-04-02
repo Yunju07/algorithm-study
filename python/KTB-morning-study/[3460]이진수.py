@@ -23,11 +23,18 @@ T = int(input())
 
 for i in range(T):
   n = int(input())
-  binary = two_jeansu(n)
+  binary = list(map(int, bin(n)[2:]))[::-1]
 
   result = ""
-  for i in range(len(binary)):
-    if binary[i] == 1:
+  for i, bit in enumerate(binary):
+    if bit == 1:
       result += str(i) +" "
   
   print(result)
+
+
+# 개선사항
+# 1. enumerate()를 활용하여, 인덱스와 요소를 동시에 접근하도록 개선
+# 2. 이진수로 변환해수는 내장함수 bin() 적용
+  # bin 함수는 2진수임을 나타내는 접두사 '0b' 가 붙어 있음으로, 접두사 제외 [2:]
+  # 뒤집어서 LSB부터 0번 인덱스에 저장하기 위하여 [::-1] 
