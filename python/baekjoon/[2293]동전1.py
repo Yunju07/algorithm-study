@@ -16,3 +16,8 @@ def main():
 
 if __name__ == "__main__":
   main()
+
+# ✅ dp[amount] += dp[amount - coin] 의 의미
+# "현재 금액(amount)을 만들기 위한 방법의 수는,
+# 바로 이전 금액(amount - coin)을 만들 수 있는 방법의 수에
+# 현재 동전(coin)을 추가한 만큼이다."
