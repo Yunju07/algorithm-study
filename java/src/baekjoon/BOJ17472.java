@@ -178,7 +178,7 @@ class BOJ17472 {
     }
 
     public static void dfs(int r, int c, List<int[]> land) {
-        if(0<=r && r<N & 0<=c && c<M) {
+        if(0<=r && r<N && 0<=c && c<M) {
             if(visited[r][c] == 1) {
                 return;
             }
